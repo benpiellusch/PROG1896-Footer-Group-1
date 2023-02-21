@@ -1,0 +1,52 @@
+        <!DOCTYPE html>
+        <html>
+        <div class="footer">
+            <a href="#">About us</a>
+            <a href="#">Policies</a>
+            <a href="#">Support</a>
+            <a href="#">Deals</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Advertising</a>
+            <a href="#">Help</a>
+            <div class="social-media"> <!--The problem is right below this, when you run this code and look at the footer the icons for the social media links aren't in the proper spot in the footer-->
+                <img src="social media images/whatsapp.png" width = 35px; height = 35px; alt="Social Media Site 1">
+                <img src="social media images/facebook.png" width = 35px; height = 35px; alt="Social Media Site 2">
+                <img src="social media images/twitter.png" width = 35px; height = 35px; alt="Social Media Site 3">
+                <img src="social media images/instagram.png" width = 35px; height = 35px; alt="Social Media Site 4">
+            </div>
+          </div>
+          </html>
+          <!--Heres the CSS for this footer-->
+          <style>
+            .footer {
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+  }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 33.33%;
+    text-align: center;
+  }
+  .footer a:hover {
+    background-color: cornflowerblue;
+  }
+
+  li {
+    display: inline;
+    padding: 25px
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+          </style>
